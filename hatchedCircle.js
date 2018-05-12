@@ -1,4 +1,4 @@
-hatcheddCircle = function (x, y, radius, step, angle) {
+hatchedCircle = function (x, y, radius, step, angle) {
   push();
   translate(x, y);
   ellipse(0, 0, radius * 2);
