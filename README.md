@@ -15,3 +15,4 @@ Call the function passing the following parameters:
 ### Other information.
 * Inside the function `push()` and `pop()` are used to stop it interfering with the surrounding p5.js code as it uses `translate()` and `rotate()`.
 * remember to use `noFill()` before calling the function otherwise the hatched lines won't be visible.
+* to use: copy and paste into your code or link to the file in the index.html.
