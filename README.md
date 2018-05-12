@@ -13,4 +13,5 @@ Call the function passing the following parameters:
 * the _**angle**_ of the hatched lines in degrees( from the top of the circle).
 
 ### Other information.
-Inside the function `push()` and `pop()` are used to stop it interfering with the surrounding p5.js code as it uses `translate()` and `rotate()`.
+* Inside the function `push()` and `pop()` are used to stop it interfering with the surrounding p5.js code as it uses `translate()` and `rotate()`.
+* remember to use `noFill()` before calling the function otherwise the hatched lines won't be visible.
